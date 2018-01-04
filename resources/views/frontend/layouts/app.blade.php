@@ -162,13 +162,40 @@
 
             <!--about widget-->
             <div class="col-md-3 col-sm-6">
-                <section  class="widget animated fadeInLeft">
-                    <h3 class="title">About MedicalPress</h3>
+                <section  class="widget">
+                    <h3 class="title">About Doctzi</h3>
                     <div class="textwidget">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                            nisl ut aliquip ex ea commodo consequat.</p>
+                        <p>Doctzi is established to help people make that decision and find the professionals and services that can best help them and their family. Our system and website will offer an in-depth description of local physicians and medical services including their credentials, insurance details, patient feedback and general information.</p>
+						
+                        <p>In addition to our directory, you can visit our website, www.Doctzi.com to see a video of the doctor at work in their office. Then click on a video reference for patient testimonials. Doctziis a must-have tool for all Florida residents.</p>
+                    </div>
+                </section>
+            </div>
+			
+			<!--about widget-->
+            <div class="col-md-3 col-sm-6">
+                <section  class="widget">
+                    <h3 class="title"></h3>
+                    <div class="textwidget">
+                        <p>We certainly encourage people to get referrals from friends andfamily, but that is not always possible. Our goal is to bridge-thegap between professionals and patients by making the healthcare professionals accessible and personable via our website. We at Doctzistrive to be in the forefront of offering media solutions so people can be empowered to make the best choice for a healthcare service or professional.</p>
+						
+                        <p>Our directories, guides and information solutions are a virtual gold mine of information. Offering our unique medical website service directory for each state. Residents can be confident that their needs will be addressed with the highest standards possible.</p> 
+						
+						
+                    </div>
+                </section>
+            </div>
+			
+			
+			<!--about widget-->
+            <div class="col-md-3 col-sm-6">
+                <section  class="widget">
+                    <h3 class="title"></h3>
+                    <div class="textwidget">
+                        <p>Doctzi delivers highly specialized solutions for all medical professionals including:
+						
+							Medical Doctors, Doctors of Osteopathy, Dentists, Eye Care,Physical Therapy, Pharmacies and more. Additionally, Doctziwill include labs,radiology centers and all related services that your doctor mayrecommend. Each doctor and specialist are committed to wellness and the best care for the Doctzi community.</p>
+						
                     </div>
                 </section>
             </div>
@@ -180,34 +207,28 @@
                     <h3 class="title">General Services</h3>
                     <ul>
                         <li>
-                            <a href="#">Immunization</a>
+                            <a href="#">ADVISORY BOARD</a>
                         </li>
                         <li>
-                            <a href="#">Medical Services</a>
+                            <a href="/services">DOCTOR SERVICES</a>
                         </li>
                         <li>
-                            <a href="#">Surgical</a>
+                            <a href="#">PHYSICIAN DIRECTORY</a>
                         </li>
                         <li>
-                            <a href="#">Diagnostic Services</a>
+                            <a href="#">SUCCESSFUL CHILD</a>
                         </li>
                         <li>
-                            <a href="#">Pharmacy</a>
+                            <a href="#">PRODUCTS</a>
                         </li>
                     </ul>
                 </section>
             </div>
 
             <div class="clearfix visible-sm"></div>
-
-            <!--recent posts-->
-            <div class="col-md-3 col-sm-6  ">
-                <section  class="widget animated fadeInLeft">
-                    <h3 class="title">Latest Tweets</h3>                     <ul id="twitter_update_list">                         <li>No Tweet Loaded !</li>                     </ul>
-                </section>
-            </div>
+            
             <!--subscription form-->
-            <div class="col-md-3 col-sm-6  ">
+            <!--<div class="col-md-2 col-sm-6  ">
                 <section  class="widget animated fadeInLeft">
                     <h3 class="title">Subscribe!</h3>
                     <div class="textwidget">Subscribe to my blog for updates</div>
@@ -235,12 +256,12 @@
                     </div>
 
                 </section>
-            </div>
+            </div>-->
         </div>
         <div class="footer-bottom animated fadeInDown clearfix">
             <div class="row">
                 <div class="col-sm-7">
-                    <p>&copy; Copyright 2016. All Rights Reserved by Medical Press</p>
+                    <p>&copy; Copyright 2017. All Rights Reserved by Doctzi</p>
                 </div>
                 <!--footer social icons-->
                 <div class="col-sm-5 clearfix">

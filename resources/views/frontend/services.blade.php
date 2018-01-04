@@ -19,6 +19,26 @@
 
 <div class="services-page clearfix">
     <div class="container">
+	
+		<div class="col-sm-12" id="video_post">
+			<article class="post format-gallery hentry clearfix">
+				<div class="right-contents">
+						<!--post video-->
+						<div class="video clearfix">
+							<div class="video-wrapper clearfix">
+
+								<iframe src="http://player.vimeo.com/video/75594702?title=0&amp;byline=0&amp;portrait=0"
+										frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+								 </iframe>
+
+							</div>
+						</div>
+				</div>
+			</article>
+		</div>
+		
+		
+		
         <div class="row ">
             <!--column start-->
             <div class="col-md-4 col-sm-6">

@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Patients Dashboard</div>
+                <div class="panel-heading">Doctor Dashboard</div>
 
                 <div class="panel-body">
 				
@@ -15,7 +15,7 @@
                         </div>
                     @endif
 
-                    You are logged in as Patient!
+                    You are logged in as Doctor!
                 </div>
             </div>
         </div>

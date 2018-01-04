@@ -21,8 +21,19 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function patient(Request $request)
     {
+		
+		$request->user()->authorizeRoles(['patient']);
+		
         return view('home');
+    }
+	
+	public function doctor(Request $request)
+    {
+		
+		$request->user()->authorizeRoles(['doctor']);
+		
+        return view('doctor');
     }
 }

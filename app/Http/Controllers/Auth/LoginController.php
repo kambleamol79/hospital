@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
@@ -36,4 +37,20 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+	
+	
+	
+	public function authenticated(Request $request)
+	{
+		 // Logic that determines where to send the user
+		 if($request->user()->hasRole('patient')){
+			return redirect('/patient');
+		 }
+		 
+		 if($request->user()->hasRole('doctor')){
+			return redirect('/doctor');
+		 }
+	 
+	}
+	
 }
