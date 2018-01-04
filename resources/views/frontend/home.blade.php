@@ -54,21 +54,6 @@
                             <div class="common">
                                 <input type="text" name="name" id="app-name" class="required" placeholder="Password" />
                             </div>
-<!--                             <div class="common">
-                                <input type="text" name="name" id="app-name" class="required" placeholder="User Name" />
-                            </div>
-                            <div class="common">
-                                <input type="text" name="number" id="app-number" class="required number" placeholder="Phone Number"/>
-                            </div>
-                            <div class="common">
-                                <input type="email" name="email" id="app-email" class="required email" placeholder="Email Address"/>
-                            </div>
-                            <div class="common">
-                                <input type="text" name="date" id="datepicker" class="required" placeholder="Appointment Date"/>
-                            </div>
-                            <div class="common">
-                                <textarea name="message" id="app-message" class="required"  placeholder="Appointment Message"></textarea>
-                            </div> -->
                             <div class="common">
                                 <input type="submit" name="Submit" class="btn form-submit-btn" value="Register here"/>
                                 <input type="submit" name="Submit" class="btn form-login-btn" value="Login"/>
@@ -84,7 +69,7 @@
     </div>
     <!--slider appointment form end -->
 </div>
-<div class="blog-page clearfix">
+<div class="blog-page clearfix abdsd">
 <div class="container">
 <div class="row">
     <div class="col-lg-12 col-md-12">
