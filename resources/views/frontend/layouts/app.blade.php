@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="{{ asset('css/swipebox.css') }}" type="text/css" media="all">
     <!-- meanmenu stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/meanmenu.css') }}" type="text/css" media="all">
+	
+	 <link rel="stylesheet" href="{{ asset('css/woocommerce.css') }}" type="text/css" media="all">
     <!-- Include the site main stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" type="text/css" media="all">
     <!-- Include the site responsive  stylesheet -->
@@ -44,7 +46,7 @@
 
     <!-- Styles -->
 </head>
-<body>
+<body >
 
 <header id="header">
     <div class="container">
@@ -115,8 +117,8 @@
                         <li><a href="checkout.html">Checkout</a></li>
                     </ul>-->
                 </li>
-                <li>
-                    <a href="#">PRODUCTS</a>
+                <li class="{{ Request::is('products*') ? 'current-menu-item page_item' : '' }}">
+                    <a href="/products">PRODUCTS</a>
                     <!-- <ul>
                         <li>
                             <a href="faq.html">FAQs</a>
@@ -288,7 +290,7 @@
 <script type='text/javascript' src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('js/jquery.flexslider-min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('js/jquery.swipebox.min.js') }}"></script>
-<script type='text/javascript' src="{{ asset('js/jquery.swipebox.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('js/jquery.isotope.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('js/jquery.appear.js') }}"></script>
 <script type='text/javascript' src="{{ asset('js/jquery.ui.core.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('js/jquery.ui.datepicker.min.js') }}"></script>

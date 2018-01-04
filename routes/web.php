@@ -21,3 +21,4 @@ Route::get('/patient', 'HomeController@patient')->name('patient');
 Route::get('/doctor', 'HomeController@doctor')->name('doctor');
 Route::get('/services', 'ServiceController@index')->name('service');
 Route::get('/services/mobile_diagnosticks', 'ServiceController@mobile_diagnosticks')->name('mobile_diagnosticks');
+Route::get('/products', 'ProductsController@index')->name('products');
