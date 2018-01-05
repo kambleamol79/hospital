@@ -15,3 +15,47 @@
 .login-frm .panel-default {
     border-radius: 10px;
 }
+a.new-regst {
+	float: right;
+    color: #428bca;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.doc-tab.nav-tabs > li.active > a{
+	color: #555555;
+    background-color: #67c9e0 !important;
+    cursor: default;
+    border-bottom: 2px solid #67c9e0 !important;
+    padding: 10px 0;
+    color: #fff !important;
+}
+.doc-tab li.active > a:focus {
+    color: #555555;
+    background-color: #ffffff;
+    border: 0px solid #dddddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+.doc-tab li.active > a {
+    color: #555555;
+    background-color: #ffffff;
+    border: 0px solid #dddddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+.doc-tab li {
+    width: 50%;
+    text-align: center;
+}
+.doc-tab.nav.nav-tabs {
+    display: inline;
+    width: 100%;
+    float: left;
+}
+.res-tab-con h3 {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    float: left;
+}

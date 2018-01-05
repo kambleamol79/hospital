@@ -5,7 +5,7 @@
     <div class="row">
         <div class="login-frm">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+                <div class="panel-heading"> Login / Register </div>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -40,11 +40,12 @@
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
+                            <div class="col-md-7 col-md-offset-4">
                                 <div class="checkbox">
                                     <label>
                                         <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
                                     </label>
+									<a href="/register" class="new-regst">Creat a New Account?</a>
                                 </div>
                             </div>
                         </div>
